@@ -1,0 +1,17 @@
+Package: raw2mzml
+Title: Convert Thermo Raw to mzML
+Version: 0.0.0.9000
+Authors@R: person(given = "Jaehyun", family = "Joo", role = c("aut", "cre"),
+           email = "jaehyun.joo@pennmedicine.upenn.edu")
+Description: Shiny App to convert Thermo Raw to mzML using msConvert. This app
+             only works on Windows OS.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    bslib,
+    DT,
+    fs,
+    shiny,
+    shinyFiles
