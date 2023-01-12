@@ -1,7 +1,7 @@
 find_msconvert <- function() {
   tryCatch({
     system2(
-      "where", args = c("/r", "C:\\Users\\USER", "msconvert"), stdout = TRUE
+      "where", args = c("/r", "C:\\Users", "msconvert"), stdout = TRUE
     )
   },
   warning = function(w) {
